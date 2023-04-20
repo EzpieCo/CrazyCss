@@ -1,0 +1,8 @@
+# Ignore module package
+node_modules/
+
+# ignore vscode
+.vscode/
+
+# ignore builds
+css/

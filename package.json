@@ -1,0 +1,38 @@
+{
+  "name": "crazycss",
+  "version": "1.0.0",
+  "description": "Craziest css library to build web UI easily",
+  "main": "index.js",
+  "scripts": {
+    "dev-build": "postcss src/crazy.css -d css --config postcss.config.js",
+    "minify": "postcss css/crazy.css -u cssnano -o css/crazy.min.css --no-map",
+    "build": "npm run dev-build && npm run minify"
+  },
+  "keywords": [
+    "css",
+    "library"
+  ],
+  "author": "ezpie",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/register": "^7.21.0",
+    "autoprefixer": "^10.4.14",
+    "chai": "^4.3.7",
+    "cssnano": "^6.0.0",
+    "karma": "^6.4.1",
+    "karma-babel-preprocessor": "^8.0.2",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^3.1.1",
+    "karma-mocha": "^2.0.1",
+    "karma-sourcemap-loader": "^0.4.0",
+    "karma-webpack": "^5.0.0",
+    "mocha": "^10.2.0",
+    "postcss": "^8.4.23",
+    "postcss-cli": "^10.1.0",
+    "postcss-discard-comments": "^6.0.0",
+    "postcss-import": "^15.1.0",
+    "webpack": "^5.80.0"
+  }
+}
