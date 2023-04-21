@@ -1,0 +1,45 @@
+/* Margin for bottom */
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mb-1 {
+  margin-bottom: var(--base-margin);
+}
+
+.mb-2 {
+  margin-bottom: var(--margin-2);
+}
+
+.mb-3 {
+  margin-bottom: var(--margin-3);
+}
+
+.mb-4 {
+  margin-bottom: var(--margin-4);
+}
+
+.mb-5 {
+  margin-bottom: var(--margin-5);
+}
+
+.mb-6 {
+  margin-bottom: var(--margin-6);
+}
+
+.mb-7 {
+  margin-bottom: var(--margin-7);
+}
+
+.mb-8 {
+  margin-bottom: var(--margin-8);
+}
+
+.mb-9 {
+  margin-bottom: var(--margin-9);
+}
+
+.mb-10 {
+  margin-bottom: var(--margin-10);
+}

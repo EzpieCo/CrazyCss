@@ -1,0 +1,56 @@
+/* Margin for Top and Bottom */
+
+.mx-0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.mx-1 {
+  margin-top: var(--base-margin);
+  margin-bottom: var(--base-margin);
+}
+
+.mx-2 {
+  margin-top: var(--margin-2);
+  margin-bottom: var(--margin-2);
+}
+
+.mx-3 {
+  margin-top: var(--margin-3);
+  margin-bottom: var(--margin-3);
+}
+
+.mx-4 {
+  margin-top: var(--margin-4);
+  margin-bottom: var(--margin-4);
+}
+
+.mx-5 {
+  margin-top: var(--margin-5);
+  margin-bottom: var(--margin-5);
+}
+
+.mx-6 {
+  margin-top: var(--margin-6);
+  margin-bottom: var(--margin-6);
+}
+
+.mx-7 {
+  margin-top: var(--margin-7);
+  margin-bottom: var(--margin-7);
+}
+
+.mx-8 {
+  margin-top: var(--margin-8);
+  margin-bottom: var(--margin-8);
+}
+
+.mx-9 {
+  margin-top: var(--margin-9);
+  margin-bottom: var(--margin-9);
+}
+
+.mx-10 {
+  margin-top: var(--margin-10);
+  margin-bottom: var(--margin-10);
+}

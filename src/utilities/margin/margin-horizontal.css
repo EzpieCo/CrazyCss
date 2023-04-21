@@ -1,0 +1,56 @@
+/* Margin for Left and Right */
+
+.my-0 {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.my-1 {
+  margin-left: var(--base-margin);
+  margin-right: var(--base-margin);
+}
+
+.my-2 {
+  margin-left: var(--margin-2);
+  margin-right: var(--margin-2);
+}
+
+.my-3 {
+  margin-left: var(--margin-3);
+  margin-right: var(--margin-3);
+}
+
+.my-4 {
+  margin-left: var(--margin-4);
+  margin-right: var(--margin-4);
+}
+
+.my-5 {
+  margin-left: var(--margin-5);
+  margin-right: var(--margin-5);
+}
+
+.my-6 {
+  margin-left: var(--margin-6);
+  margin-right: var(--margin-6);
+}
+
+.my-7 {
+  margin-left: var(--margin-7);
+  margin-right: var(--margin-7);
+}
+
+.my-8 {
+  margin-left: var(--margin-8);
+  margin-right: var(--margin-8);
+}
+
+.my-9 {
+  margin-left: var(--margin-9);
+  margin-right: var(--margin-9);
+}
+
+.my-10 {
+  margin-left: var(--margin-10);
+  margin-right: var(--margin-10);
+}

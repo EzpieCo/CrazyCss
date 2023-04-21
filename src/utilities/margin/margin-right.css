@@ -1,0 +1,45 @@
+/* Margin for right */
+
+.mr-0 {
+  margin-right: 0;
+}
+
+.mr-1 {
+  margin-right: var(--base-margin);
+}
+
+.mr-2 {
+  margin-right: var(--margin-2);
+}
+
+.mr-3 {
+  margin-right: var(--margin-3);
+}
+
+.mr-4 {
+  margin-right: var(--margin-4);
+}
+
+.mr-5 {
+  margin-right: var(--margin-5);
+}
+
+.mr-6 {
+  margin-right: var(--margin-6);
+}
+
+.mr-7 {
+  margin-right: var(--margin-7);
+}
+
+.mr-8 {
+  margin-right: var(--margin-8);
+}
+
+.mr-9 {
+  margin-right: var(--margin-9);
+}
+
+.mr-10 {
+  margin-right: var(--margin-10);
+}

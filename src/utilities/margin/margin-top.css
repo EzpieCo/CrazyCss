@@ -1,0 +1,45 @@
+/* Margin from the Top */
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.mt-1 {
+  margin-top: var(--base-margin);
+}
+
+.mt-2 {
+  margin-top: var(--margin-2);
+}
+
+.mt-3 {
+  margin-top: var(--margin-3);
+}
+
+.mt-4 {
+  margin-top: var(--margin-4);
+}
+
+.mt-5 {
+  margin-top: var(--margin-5);
+}
+
+.mt-6 {
+  margin-top: var(--margin-6);
+}
+
+.mt-7 {
+  margin-top: var(--margin-7);
+}
+
+.mt-8 {
+  margin-top: var(--margin-8);
+}
+
+.mt-9 {
+  margin-top: var(--margin-9);
+}
+
+.mt-10 {
+  margin-top: var(--margin-10);
+}

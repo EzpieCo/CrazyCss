@@ -1,0 +1,45 @@
+/* Margin from all sides */
+
+.m-0 {
+  margin: 0;
+}
+
+.m-1 {
+  margin: var(--base-margin);
+}
+
+.m-2 {
+  margin: var(--margin-2);
+}
+
+.m-3 {
+  margin: var(--margin-3);
+}
+
+.m-4 {
+  margin: var(--margin-4);
+}
+
+.m-5 {
+  margin: var(--margin-5);
+}
+
+.m-6 {
+  margin: var(--margin-6);
+}
+
+.m-7 {
+  margin: var(--margin-7);
+}
+
+.m-8 {
+  margin: var(--margin-8);
+}
+
+.m-9 {
+  margin: var(--margin-9);
+}
+
+.m-10 {
+  margin: var(--margin-10);
+}

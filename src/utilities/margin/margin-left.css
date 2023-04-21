@@ -1,0 +1,45 @@
+/* Margin for Left */
+
+.ml-0 {
+  margin-left: 0;
+}
+
+.ml-1 {
+  margin-left: var(--base-margin);
+}
+
+.ml-2 {
+  margin-left: var(--margin-2);
+}
+
+.ml-3 {
+  margin-left: var(--margin-3);
+}
+
+.ml-4 {
+  margin-left: var(--margin-4);
+}
+
+.ml-5 {
+  margin-left: var(--margin-5);
+}
+
+.ml-6 {
+  margin-left: var(--margin-6);
+}
+
+.ml-7 {
+  margin-left: var(--margin-7);
+}
+
+.ml-8 {
+  margin-left: var(--margin-8);
+}
+
+.ml-9 {
+  margin-left: var(--margin-9);
+}
+
+.ml-10 {
+  margin-left: var(--margin-10);
+}
