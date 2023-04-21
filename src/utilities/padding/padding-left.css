@@ -1,0 +1,45 @@
+/* Padding for Left */
+
+.pl-0 {
+  padding-left: 0;
+}
+
+.pl-1 {
+  padding-left: var(--base-padding);
+}
+
+.pl-2 {
+  padding-left: var(--padding-2);
+}
+
+.pl-3 {
+  padding-left: var(--padding-3);
+}
+
+.pl-4 {
+  padding-left: var(--padding-4);
+}
+
+.pl-5 {
+  padding-left: var(--padding-5);
+}
+
+.pl-6 {
+  padding-left: var(--padding-6);
+}
+
+.pl-7 {
+  padding-left: var(--padding-7);
+}
+
+.pl-8 {
+  padding-left: var(--padding-8);
+}
+
+.pl-9 {
+  padding-left: var(--padding-9);
+}
+
+.pl-10 {
+  padding-left: var(--padding-10);
+}

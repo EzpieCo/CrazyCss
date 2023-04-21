@@ -1,0 +1,56 @@
+/* Padding for Left and Right */
+
+.py-0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.py-1 {
+  padding-left: var(--base-padding);
+  padding-right: var(--base-padding);
+}
+
+.py-2 {
+  padding-left: var(--padding-2);
+  padding-right: var(--padding-2);
+}
+
+.py-3 {
+  padding-left: var(--padding-3);
+  padding-right: var(--padding-3);
+}
+
+.py-4 {
+  padding-left: var(--padding-4);
+  padding-right: var(--padding-4);
+}
+
+.py-5 {
+  padding-left: var(--padding-5);
+  padding-right: var(--padding-5);
+}
+
+.py-6 {
+  padding-left: var(--padding-6);
+  padding-right: var(--padding-6);
+}
+
+.py-7 {
+  padding-left: var(--padding-7);
+  padding-right: var(--padding-7);
+}
+
+.py-8 {
+  padding-left: var(--padding-8);
+  padding-right: var(--padding-8);
+}
+
+.py-9 {
+  padding-left: var(--padding-9);
+  padding-right: var(--padding-9);
+}
+
+.py-10 {
+  padding-left: var(--padding-10);
+  padding-right: var(--padding-10);
+}

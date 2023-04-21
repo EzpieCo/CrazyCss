@@ -1,0 +1,45 @@
+/* Padding for right */
+
+.pr-0 {
+  padding-right: 0;
+}
+
+.pr-1 {
+  padding-right: var(--base-padding);
+}
+
+.pr-2 {
+  padding-right: var(--padding-2);
+}
+
+.pr-3 {
+  padding-right: var(--padding-3);
+}
+
+.pr-4 {
+  padding-right: var(--padding-4);
+}
+
+.pr-5 {
+  padding-right: var(--padding-5);
+}
+
+.pr-6 {
+  padding-right: var(--padding-6);
+}
+
+.pr-7 {
+  padding-right: var(--padding-7);
+}
+
+.pr-8 {
+  padding-right: var(--padding-8);
+}
+
+.pr-9 {
+  padding-right: var(--padding-9);
+}
+
+.pr-10 {
+  padding-right: var(--padding-10);
+}

@@ -1,0 +1,44 @@
+/* Padding from all sides */
+.p-0 {
+  padding: 0;
+}
+
+.p-1 {
+  padding: var(--base-padding);
+}
+
+.p-2 {
+  padding: var(--padding-2);
+}
+
+.p-3 {
+  padding: var(--padding-3);
+}
+
+.p-4 {
+  padding: var(--padding-4);
+}
+
+.p-5 {
+  padding: var(--padding-5);
+}
+
+.p-6 {
+  padding: var(--padding-6);
+}
+
+.p-7 {
+  padding: var(--padding-7);
+}
+
+.p-8 {
+  padding: var(--padding-8);
+}
+
+.p-9 {
+  padding: var(--padding-9);
+}
+
+.p-10 {
+  padding: var(--padding-10);
+}
