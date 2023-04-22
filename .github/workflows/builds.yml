@@ -18,7 +18,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Build development CSS
-        run: postcss src/crazy.css -d dist --config postcss.config.js
+        run: npx postcss src/crazy.css -d dist --config postcss.config.js
       - name: Upload development CSS
         uses: actions/upload-artifact@v2
         with:
@@ -37,7 +37,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Build production CSS
-        run: postcss dist/crazy.css -u cssnano -o dist/crazy.min.css --no-map
+        run: npx postcss dist/crazy.css -u cssnano -o dist/crazy.min.css --no-map
       - name: Upload production CSS
         uses: actions/upload-artifact@v2
         with:
