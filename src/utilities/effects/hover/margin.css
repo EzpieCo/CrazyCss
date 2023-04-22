@@ -1,0 +1,343 @@
+/* Margin from all sides */
+
+.hover\:m-0:hover {
+  margin: 0;
+}
+
+.hover\:m-1:hover {
+  margin: var(--base-margin);
+}
+
+.hover\:m-2:hover {
+  margin: var(--margin-2);
+}
+
+.hover\:m-3:hover {
+  margin: var(--margin-3);
+}
+
+.hover\:m-4:hover {
+  margin: var(--margin-4);
+}
+
+.hover\:m-5:hover {
+  margin: var(--margin-5);
+}
+
+.hover\:m-6:hover {
+  margin: var(--margin-6);
+}
+
+.hover\:m-7:hover {
+  margin: var(--margin-7);
+}
+
+.hover\:m-8:hover {
+  margin: var(--margin-8);
+}
+
+.hover\:m-9:hover {
+  margin: var(--margin-9);
+}
+
+.hover\:m-10:hover {
+  margin: var(--margin-10);
+}
+
+/* Margin from the Top */
+
+.hover\:mt-0:hover {
+  margin-top: 0;
+}
+
+.hover\:mt-1:hover {
+  margin-top: var(--base-margin);
+}
+
+.hover\:mt-2:hover {
+  margin-top: var(--margin-2);
+}
+
+.hover\:mt-3:hover {
+  margin-top: var(--margin-3);
+}
+
+.hover\:mt-4:hover {
+  margin-top: var(--margin-4);
+}
+
+.hover\:mt-5:hover {
+  margin-top: var(--margin-5);
+}
+
+.hover\:mt-6:hover {
+  margin-top: var(--margin-6);
+}
+
+.hover\:mt-7:hover {
+  margin-top: var(--margin-7);
+}
+
+.hover\:mt-8:hover {
+  margin-top: var(--margin-8);
+}
+
+.hover\:mt-9:hover {
+  margin-top: var(--margin-9);
+}
+
+.hover\:mt-10:hover {
+  margin-top: var(--margin-10);
+}
+
+/* Margin for Left */
+
+.hover\:ml-0:hover {
+  margin-left: 0;
+}
+
+.hover\:ml-1:hover {
+  margin-left: var(--base-margin);
+}
+
+.hover\:ml-2:hover {
+  margin-left: var(--margin-2);
+}
+
+.hover\:ml-3:hover {
+  margin-left: var(--margin-3);
+}
+
+.hover\:ml-4:hover {
+  margin-left: var(--margin-4);
+}
+
+.hover\:ml-5:hover {
+  margin-left: var(--margin-5);
+}
+
+.hover\:ml-6:hover {
+  margin-left: var(--margin-6);
+}
+
+.hover\:ml-7:hover {
+  margin-left: var(--margin-7);
+}
+
+.hover\:ml-8:hover {
+  margin-left: var(--margin-8);
+}
+
+.hover\:ml-9:hover {
+  margin-left: var(--margin-9);
+}
+
+.hover\:ml-10:hover {
+  margin-left: var(--margin-10);
+}
+
+/* Margin for right */
+
+.hover\:mr-0:hover {
+  margin-right: 0;
+}
+
+.hover\:mr-1:hover {
+  margin-right: var(--base-margin);
+}
+
+.hover\:mr-2:hover {
+  margin-right: var(--margin-2);
+}
+
+.hover\:mr-3:hover {
+  margin-right: var(--margin-3);
+}
+
+.hover\:mr-4:hover {
+  margin-right: var(--margin-4);
+}
+
+.hover\:mr-5:hover {
+  margin-right: var(--margin-5);
+}
+
+.hover\:mr-6:hover {
+  margin-right: var(--margin-6);
+}
+
+.hover\:mr-7:hover {
+  margin-right: var(--margin-7);
+}
+
+.hover\:mr-8:hover {
+  margin-right: var(--margin-8);
+}
+
+.hover\:mr-9:hover {
+  margin-right: var(--margin-9);
+}
+
+.hover\:mr-10:hover {
+  margin-right: var(--margin-10);
+}
+
+/* Margin for bottom */
+
+.hover\:mb-0:hover {
+  margin-bottom: 0;
+}
+
+.hover\:mb-1:hover {
+  margin-bottom: var(--base-margin);
+}
+
+.hover\:mb-2:hover {
+  margin-bottom: var(--margin-2);
+}
+
+.hover\:mb-3:hover {
+  margin-bottom: var(--margin-3);
+}
+
+.hover\:mb-4:hover {
+  margin-bottom: var(--margin-4);
+}
+
+.hover\:mb-5:hover {
+  margin-bottom: var(--margin-5);
+}
+
+.hover\:mb-6:hover {
+  margin-bottom: var(--margin-6);
+}
+
+.hover\:mb-7:hover {
+  margin-bottom: var(--margin-7);
+}
+
+.hover\:mb-8:hover {
+  margin-bottom: var(--margin-8);
+}
+
+.hover\:mb-9:hover {
+  margin-bottom: var(--margin-9);
+}
+
+.hover\:mb-10:hover {
+  margin-bottom: var(--margin-10);
+}
+
+/* Margin for Top and Bottom */
+
+.hover\:mx-0:hover {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.hover\:mx-1:hover {
+  margin-top: var(--base-margin);
+  margin-bottom: var(--base-margin);
+}
+
+.hover\:mx-2:hover {
+  margin-top: var(--margin-2);
+  margin-bottom: var(--margin-2);
+}
+
+.hover\:mx-3:hover {
+  margin-top: var(--margin-3);
+  margin-bottom: var(--margin-3);
+}
+
+.hover\:mx-4:hover {
+  margin-top: var(--margin-4);
+  margin-bottom: var(--margin-4);
+}
+
+.hover\:mx-5:hover {
+  margin-top: var(--margin-5);
+  margin-bottom: var(--margin-5);
+}
+
+.hover\:mx-6:hover {
+  margin-top: var(--margin-6);
+  margin-bottom: var(--margin-6);
+}
+
+.hover\:mx-7:hover {
+  margin-top: var(--margin-7);
+  margin-bottom: var(--margin-7);
+}
+
+.hover\:mx-8:hover {
+  margin-top: var(--margin-8);
+  margin-bottom: var(--margin-8);
+}
+
+.hover\:mx-9:hover {
+  margin-top: var(--margin-9);
+  margin-bottom: var(--margin-9);
+}
+
+.hover\:mx-10:hover {
+  margin-top: var(--margin-10);
+  margin-bottom: var(--margin-10);
+}
+
+/* Margin for Left and Right */
+
+.hover\:my-0:hover {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.hover\:my-1:hover {
+  margin-left: var(--base-margin);
+  margin-right: var(--base-margin);
+}
+
+.hover\:my-2:hover {
+  margin-left: var(--margin-2);
+  margin-right: var(--margin-2);
+}
+
+.hover\:my-3:hover {
+  margin-left: var(--margin-3);
+  margin-right: var(--margin-3);
+}
+
+.hover\:my-4:hover {
+  margin-left: var(--margin-4);
+  margin-right: var(--margin-4);
+}
+
+.hover\:my-5:hover {
+  margin-left: var(--margin-5);
+  margin-right: var(--margin-5);
+}
+
+.hover\:my-6:hover {
+  margin-left: var(--margin-6);
+  margin-right: var(--margin-6);
+}
+
+.hover\:my-7:hover {
+  margin-left: var(--margin-7);
+  margin-right: var(--margin-7);
+}
+
+.hover\:my-8:hover {
+  margin-left: var(--margin-8);
+  margin-right: var(--margin-8);
+}
+
+.hover\:my-9:hover {
+  margin-left: var(--margin-9);
+  margin-right: var(--margin-9);
+}
+
+.hover\:my-10:hover {
+  margin-left: var(--margin-10);
+  margin-right: var(--margin-10);
+}

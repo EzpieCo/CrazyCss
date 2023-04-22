@@ -1,0 +1,27 @@
+.hover\:bg-black:hover {
+  background-color: var(--black);
+}
+
+.hover\:bg-white:hover {
+  background-color: var(--white);
+}
+
+.hover\:bg-gray:hover {
+  background-color: var(--gray);
+}
+
+.hover\:bg-red:hover {
+  background-color: var(--red);
+}
+
+.hover\:bg-blue:hover {
+  background-color: var(--blue);
+}
+
+.hover\:bg-green:hover {
+  background-color: var(--green);
+}
+
+.hover\:bg-yellow:hover {
+  background-color: var(--yellow);
+}

@@ -1,0 +1,29 @@
+/* Light */
+.font-light {
+  font-weight: 300;
+}
+
+/* Normal */
+.font-normal {
+  font-weight: 400;
+}
+
+/* Bold */
+.font-bold {
+  font-weight: 700;
+}
+
+/* Italic */
+.font-italic {
+  font-style: italic;
+}
+
+/* Underline */
+.font-underline {
+  text-decoration: underline;
+}
+
+/* Strike through */
+.font-strikethrough {
+  text-decoration: line-through;
+}

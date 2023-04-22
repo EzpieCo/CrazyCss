@@ -1,0 +1,31 @@
+.nowrap {
+  white-space: nowrap;
+}
+
+.text-caps {
+  text-transform: uppercase;
+}
+
+.text-lower {
+  text-transform: lowercase;
+}
+
+.text-none {
+  text-decoration: none;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-dashed {
+  text-decoration: dashed;
+}
+
+.text-dotted {
+  text-decoration: dotted;
+}
+
+.text-cut {
+  text-decoration: line-through;
+}

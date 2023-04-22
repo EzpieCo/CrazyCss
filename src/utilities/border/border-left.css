@@ -1,0 +1,41 @@
+/* border for left */
+
+.border-left-1 {
+  border-left-width: var(--border-width);
+}
+
+.border-left-2 {
+  border-left-width: calc(var(--border-width) * 2);
+}
+
+.border-left-3 {
+  border-left-width: calc(var(--border-width) * 3);
+}
+
+.border-left-4 {
+  border-left-width: calc(var(--border-width) * 4);
+}
+
+.border-left-5 {
+  border-left-width: calc(var(--border-width) * 5);
+}
+
+.border-left-6 {
+  border-left-width: calc(var(--border-width) * 6);
+}
+
+.border-left-7 {
+  border-left-width: calc(var(--border-width) * 7);
+}
+
+.border-left-8 {
+  border-left-width: calc(var(--border-width) * 8);
+}
+
+.border-left-9 {
+  border-left-width: calc(var(--border-width) * 9);
+}
+
+.border-left-10 {
+  border-left-width: calc(var(--border-width) * 10);
+}

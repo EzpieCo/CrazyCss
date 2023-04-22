@@ -1,0 +1,43 @@
+.round-0 {
+  border-radius: 0;
+}
+
+.round-1 {
+  border-radius: var(--border-radius);
+}
+
+.round-2 {
+  border-radius: calc(var(--border-radius) * 2);
+}
+
+.round-3 {
+  border-radius: calc(var(--border-radius) * 3);
+}
+
+.round-4 {
+  border-radius: calc(var(--border-radius) * 4);
+}
+
+.round-5 {
+  border-radius: calc(var(--border-radius) * 5);
+}
+
+.round-6 {
+  border-radius: calc(var(--border-radius) * 6);
+}
+
+.round-7 {
+  border-radius: calc(var(--border-radius) * 7);
+}
+
+.round-8 {
+  border-radius: calc(var(--border-radius) * 8);
+}
+
+.round-9 {
+  border-radius: calc(var(--border-radius) * 9);
+}
+
+.round-10 {
+  border-radius: calc(var(--border-radius) * 10);
+}

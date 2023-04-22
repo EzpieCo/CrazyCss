@@ -1,0 +1,341 @@
+/* Padding from all sides */
+.hover\:p-0:hover {
+  padding: 0;
+}
+
+.hover\:p-1:hover {
+  padding: var(--base-padding);
+}
+
+.hover\:p-2:hover {
+  padding: var(--padding-2);
+}
+
+.hover\:p-3:hover {
+  padding: var(--padding-3);
+}
+
+.hover\:p-4:hover {
+  padding: var(--padding-4);
+}
+
+.hover\:p-5:hover {
+  padding: var(--padding-5);
+}
+
+.hover\:p-6:hover {
+  padding: var(--padding-6);
+}
+
+.hover\:p-7:hover {
+  padding: var(--padding-7);
+}
+
+.hover\:p-8:hover {
+  padding: var(--padding-8);
+}
+
+.hover\:p-9:hover {
+  padding: var(--padding-9);
+}
+
+.hover\:p-10:hover {
+  padding: var(--padding-10);
+}
+
+/* Padding from the Top */
+.hover\:pt-0:hover {
+  padding-top: 0;
+}
+
+.hover\:pt-1:hover {
+  padding-top: var(--base-padding);
+}
+
+.hover\:pt-2:hover {
+  padding-top: var(--padding-2);
+}
+
+.hover\:pt-3:hover {
+  padding-top: var(--padding-3);
+}
+
+.hover\:pt-4:hover {
+  padding-top: var(--padding-4);
+}
+
+.hover\:pt-5:hover {
+  padding-top: var(--padding-5);
+}
+
+.hover\:pt-6:hover {
+  padding-top: var(--padding-6);
+}
+
+.hover\:pt-7:hover {
+  padding-top: var(--padding-7);
+}
+
+.hover\:pt-8:hover {
+  padding-top: var(--padding-8);
+}
+
+.hover\:pt-9:hover {
+  padding-top: var(--padding-9);
+}
+
+.hover\:pt-10:hover {
+  padding-top: var(--padding-10);
+}
+
+/* Padding for Left */
+
+.hover\:pl-0:hover {
+  padding-left: 0;
+}
+
+.hover\:pl-1:hover {
+  padding-left: var(--base-padding);
+}
+
+.hover\:pl-2:hover {
+  padding-left: var(--padding-2);
+}
+
+.hover\:pl-3:hover {
+  padding-left: var(--padding-3);
+}
+
+.hover\:pl-4:hover {
+  padding-left: var(--padding-4);
+}
+
+.hover\:pl-5:hover {
+  padding-left: var(--padding-5);
+}
+
+.hover\:pl-6:hover {
+  padding-left: var(--padding-6);
+}
+
+.hover\:pl-7:hover {
+  padding-left: var(--padding-7);
+}
+
+.hover\:pl-8:hover {
+  padding-left: var(--padding-8);
+}
+
+.hover\:pl-9:hover {
+  padding-left: var(--padding-9);
+}
+
+.hover\:pl-10:hover {
+  padding-left: var(--padding-10);
+}
+
+/* Padding for right */
+
+.hover\:pr-0:hover {
+  padding-right: 0;
+}
+
+.hover\:pr-1:hover {
+  padding-right: var(--base-padding);
+}
+
+.hover\:pr-2:hover {
+  padding-right: var(--padding-2);
+}
+
+.hover\:pr-3:hover {
+  padding-right: var(--padding-3);
+}
+
+.hover\:pr-4:hover {
+  padding-right: var(--padding-4);
+}
+
+.hover\:pr-5:hover {
+  padding-right: var(--padding-5);
+}
+
+.hover\:pr-6:hover {
+  padding-right: var(--padding-6);
+}
+
+.hover\:pr-7:hover {
+  padding-right: var(--padding-7);
+}
+
+.hover\:pr-8:hover {
+  padding-right: var(--padding-8);
+}
+
+.hover\:pr-9:hover {
+  padding-right: var(--padding-9);
+}
+
+.hover\:pr-10:hover {
+  padding-right: var(--padding-10);
+}
+
+/* Padding for bottom */
+
+.hover\:pb-0:hover {
+  padding-bottom: 0;
+}
+
+.hover\:pb-1:hover {
+  padding-bottom: var(--base-padding);
+}
+
+.hover\:pb-2:hover {
+  padding-bottom: var(--padding-2);
+}
+
+.hover\:pb-3:hover {
+  padding-bottom: var(--padding-3);
+}
+
+.hover\:pb-4:hover {
+  padding-bottom: var(--padding-4);
+}
+
+.hover\:pb-5:hover {
+  padding-bottom: var(--padding-5);
+}
+
+.hover\:pb-6:hover {
+  padding-bottom: var(--padding-6);
+}
+
+.hover\:pb-7:hover {
+  padding-bottom: var(--padding-7);
+}
+
+.hover\:pb-8:hover {
+  padding-bottom: var(--padding-8);
+}
+
+.hover\:pb-9:hover {
+  padding-bottom: var(--padding-9);
+}
+
+.hover\:pb-10:hover {
+  padding-bottom: var(--padding-10);
+}
+
+/* Padding for Top and Bottom */
+
+.hover\:px-0:hover {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.hover\:px-1:hover {
+  padding-top: var(--base-padding);
+  padding-bottom: var(--base-padding);
+}
+
+.hover\:px-2:hover {
+  padding-top: var(--padding-2);
+  padding-bottom: var(--padding-2);
+}
+
+.hover\:px-3:hover {
+  padding-top: var(--padding-3);
+  padding-bottom: var(--padding-3);
+}
+
+.hover\:px-4:hover {
+  padding-top: var(--padding-4);
+  padding-bottom: var(--padding-4);
+}
+
+.hover\:px-5:hover {
+  padding-top: var(--padding-5);
+  padding-bottom: var(--padding-5);
+}
+
+.hover\:px-6:hover {
+  padding-top: var(--padding-6);
+  padding-bottom: var(--padding-6);
+}
+
+.hover\:px-7:hover {
+  padding-top: var(--padding-7);
+  padding-bottom: var(--padding-7);
+}
+
+.hover\:px-8:hover {
+  padding-top: var(--padding-8);
+  padding-bottom: var(--padding-8);
+}
+
+.hover\:px-9:hover {
+  padding-top: var(--padding-9);
+  padding-bottom: var(--padding-9);
+}
+
+.hover\:px-10:hover {
+  padding-top: var(--padding-10);
+  padding-bottom: var(--padding-10);
+}
+
+/* Padding for Left and Right */
+
+.hover\:py-0:hover {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.hover\:py-1:hover {
+  padding-left: var(--base-padding);
+  padding-right: var(--base-padding);
+}
+
+.hover\:py-2:hover {
+  padding-left: var(--padding-2);
+  padding-right: var(--padding-2);
+}
+
+.hover\:py-3:hover {
+  padding-left: var(--padding-3);
+  padding-right: var(--padding-3);
+}
+
+.hover\:py-4:hover {
+  padding-left: var(--padding-4);
+  padding-right: var(--padding-4);
+}
+
+.hover\:py-5:hover {
+  padding-left: var(--padding-5);
+  padding-right: var(--padding-5);
+}
+
+.hover\:py-6:hover {
+  padding-left: var(--padding-6);
+  padding-right: var(--padding-6);
+}
+
+.hover\:py-7:hover {
+  padding-left: var(--padding-7);
+  padding-right: var(--padding-7);
+}
+
+.hover\:py-8:hover {
+  padding-left: var(--padding-8);
+  padding-right: var(--padding-8);
+}
+
+.hover\:py-9:hover {
+  padding-left: var(--padding-9);
+  padding-right: var(--padding-9);
+}
+
+.hover\:py-10:hover {
+  padding-left: var(--padding-10);
+  padding-right: var(--padding-10);
+}

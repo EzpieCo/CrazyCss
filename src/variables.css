@@ -1,0 +1,52 @@
+/* NOTE: These variables are not to be changed! */
+
+:root {
+  /* Padding */
+  --base-padding: 0.25rem;
+  --padding-2: calc(var(--base-padding) * 2);
+  --padding-3: calc(var(--base-padding) * 3);
+  --padding-4: calc(var(--base-padding) * 4);
+  --padding-5: calc(var(--base-padding) * 5);
+  --padding-6: calc(var(--base-padding) * 6);
+  --padding-7: calc(var(--base-padding) * 7);
+  --padding-8: calc(var(--base-padding) * 8);
+  --padding-9: calc(var(--base-padding) * 9);
+  --padding-10: calc(var(--base-padding) * 10);
+
+  /* Margin */
+  --base-margin: 0.25rem;
+  --margin-2: calc(var(--base-margin) * 2);
+  --margin-3: calc(var(--base-margin) * 3);
+  --margin-4: calc(var(--base-margin) * 4);
+  --margin-5: calc(var(--base-margin) * 5);
+  --margin-6: calc(var(--base-margin) * 6);
+  --margin-7: calc(var(--base-margin) * 7);
+  --margin-8: calc(var(--base-margin) * 8);
+  --margin-9: calc(var(--base-margin) * 9);
+  --margin-10: calc(var(--base-margin) * 10);
+
+  /* Colors */
+  --white: #ffffff;
+  --black: #000000;
+  --gray: #6f6f6f;
+  --red: #ff4242;
+  --blue: #4388ff;
+  --green: #09c409;
+  --yellow: #ffff00;
+
+  /* Border settings */
+  --border-radius: 0.5rem;
+  --border-width: 0.2rem;
+
+  /* font sizes */
+  --base-font-size: 16px;
+  --font-2-size: calc(var(--base-font-size) * 1.125);
+  --font-3-size: calc(var(--base-font-size) * 1.25);
+  --font-4-size: calc(var(--base-font-size) * 1.5);
+  --font-5-size: calc(var(--base-font-size) * 1.875);
+  --font-6-size: calc(var(--base-font-size) * 2.25);
+  --font-7-size: calc(var(--base-font-size) * 3);
+  --font-8-size: calc(var(--base-font-size) * 4.5);
+  --font-9-size: calc(var(--base-font-size) * 6);
+  --font-10-size: calc(var(--base-font-size) * 8);
+}

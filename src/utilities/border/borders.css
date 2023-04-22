@@ -1,0 +1,41 @@
+/* border for all sides */
+
+.border-1 {
+  border-width: var(--border-width);
+}
+
+.border-2 {
+  border-width: calc(var(--border-width) * 2);
+}
+
+.border-3 {
+  border-width: calc(var(--border-width) * 3);
+}
+
+.border-4 {
+  border-width: calc(var(--border-width) * 4);
+}
+
+.border-5 {
+  border-width: calc(var(--border-width) * 5);
+}
+
+.border-6 {
+  border-width: calc(var(--border-width) * 6);
+}
+
+.border-7 {
+  border-width: calc(var(--border-width) * 7);
+}
+
+.border-8 {
+  border-width: calc(var(--border-width) * 8);
+}
+
+.border-9 {
+  border-width: calc(var(--border-width) * 9);
+}
+
+.border-10 {
+  border-width: calc(var(--border-width) * 10);
+}

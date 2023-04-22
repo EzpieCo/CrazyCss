@@ -1,0 +1,27 @@
+.hover\:text-black:hover {
+  color: var(--black);
+}
+
+.hover\:text-white:hover {
+  color: var(--white);
+}
+
+.hover\:text-gray:hover {
+  color: var(--gray);
+}
+
+.hover\:text-red:hover {
+  color: var(--red);
+}
+
+.hover\:text-blue:hover {
+  color: var(--blue);
+}
+
+.hover\:text-green:hover {
+  color: var(--green);
+}
+
+.hover\:text-yellow:hover {
+  color: var(--yellow);
+}

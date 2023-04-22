@@ -1,3 +1,6 @@
+/* Variables */
+@import "variables";
+
 /* Basic setup */
 @import "base";
 
@@ -6,3 +9,8 @@
 @import "./utilities/margin/main";
 @import "./utilities/colors/text/main";
 @import "./utilities/colors/background/main";
+@import "./utilities/effects/hover/main";
+@import "./utilities/typography/main";
+@import "./utilities/border/main";
+@import "./utilities/layout/grid/main";
+@import "./utilities/layout/flexbox/main";
