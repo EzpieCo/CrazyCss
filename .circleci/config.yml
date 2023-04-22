@@ -7,11 +7,11 @@ jobs:
     steps:
       - checkout
       - run: npm install
-      - run: npm run build:dev
+      - run: postcss src/crazy.css -d css --config postcss.config.js
       - persist_to_workspace:
           root: .
           paths:
-            - "crazy.css"
+            - "dist/crazy.css"
 
   build-prod:
     docker:
@@ -19,11 +19,11 @@ jobs:
     steps:
       - checkout
       - run: npm install
-      - run: npm run build:prod
+      - run: postcss css/crazy.css -u cssnano -o css/crazy.min.css --no-map
       - persist_to_workspace:
           root: .
           paths:
-            - "crazy.min.css"
+            - "dist/crazy.min.css"
 
 workflows:
   version: 2
