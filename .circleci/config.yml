@@ -9,7 +9,7 @@ jobs:
       - run: npm install
       - run: npm run build:dev
       - persist_to_workspace:
-          root: ./css
+          root: .
           paths:
             - "crazy.css"
 
@@ -21,7 +21,7 @@ jobs:
       - run: npm install
       - run: npm run build:prod
       - persist_to_workspace:
-          root: ./css
+          root: .
           paths:
             - "crazy.min.css"
 
