@@ -1,0 +1,37 @@
+language: node_js
+
+node_js:
+  - "stable"
+
+cache:
+  directories:
+    - "node_modules"
+
+jobs:
+  include:
+    - stage: "dev build"
+      name: "Development Build"
+      script:
+        - npm install
+        - postcss src/crazy.css -d dist --config postcss.config.js
+      workspaces:
+        create:
+          name: dev-build-output
+          paths:
+            - dist
+
+    - stage: "prod build"
+      name: "Production Build"
+      script:
+        - npm install
+        - postcss css/crazy.css -u cssnano -o dist/crazy.min.css --no-map
+      workspaces:
+        create:
+          name: prod-build-output
+          paths:
+            - dist
+      depends_on:
+        - "Development Build"
+
+  allow_failures:
+    - stage: "prod build"
