@@ -24,8 +24,8 @@ jobs:
       - name: Upload development CSS
         uses: actions/upload-artifact@v2
         with:
-          name: crazy.css
-          path: dist/crazy.css
+          name: build-artifact
+          path: dist/
 
   build-prod:
     runs-on: ubuntu-latest
