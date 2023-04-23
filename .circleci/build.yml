@@ -1,0 +1,64 @@
+version: 2.1
+
+jobs:
+  dev_build:
+    docker:
+      - image: circleci/node:stable
+    working_directory: ~/CrazyCss
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - dev-build-cache-{{ checksum "package-lock.json" }}
+            - dev-build-cache-
+      - run:
+          name: Install Dependencies
+          command: npm install
+      - run:
+          name: Development Build
+          command: npx postcss src/crazy.css -d css --config postcss.config.js
+      - save_cache:
+          key: dev-build-cache-{{ checksum "package-lock.json" }}
+          paths:
+            - node_modules
+    outputs:
+      - name: dev-build-output
+        paths:
+          - css
+
+  prod_build:
+    docker:
+      - image: circleci/node:stable
+    working_directory: ~/CrazyCss
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - dev-build-cache-{{ checksum "package-lock.json" }}
+            - dev-build-cache-
+      - run:
+          name: Install Dependencies
+          command: npm install
+      - run:
+          name: Production Build
+          command: npx postcss css/crazy.css -u cssnano -o css/crazy.min.css --no-map
+      - save_cache:
+          key: dev-build-cache-{{ checksum "package-lock.json" }}
+          paths:
+            - node_modules
+      - store_artifacts:
+          path: css
+    requires:
+      - dev_build
+
+workflows:
+  build:
+    jobs:
+      - dev_build
+      - prod_build:
+          requires:
+            - dev_build
+          filters:
+            branches:
+              only:
+                - main
