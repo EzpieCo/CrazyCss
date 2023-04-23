@@ -1,64 +1,39 @@
 version: 2.1
 
 jobs:
-  dev_build:
+  build-dev:
     docker:
-      - image: circleci/node:stable
-    working_directory: ~/CrazyCss
+      - image: circleci/node:latest
+    working_directory: ~/repo
     steps:
       - checkout
-      - restore_cache:
-          keys:
-            - dev-build-cache-{{ checksum "package-lock.json" }}
-            - dev-build-cache-
-      - run:
-          name: Install Dependencies
-          command: npm install
-      - run:
-          name: Development Build
-          command: npx postcss src/crazy.css -d css --config postcss.config.js
-      - save_cache:
-          key: dev-build-cache-{{ checksum "package-lock.json" }}
+      - run: npm install
+      - run: npx postcss src/crazy.css -d css --config postcss.config.js
+      - persist_to_workspace:
+          root: .
           paths:
-            - node_modules
-    outputs:
-      - name: dev-build-output
-        paths:
-          - css
+            - .
 
-  prod_build:
+  build-prod:
+    working_directory: ~/repo
     docker:
-      - image: circleci/node:stable
-    working_directory: ~/CrazyCss
+      - image: circleci/node:latest
     steps:
-      - checkout
-      - restore_cache:
-          keys:
-            - dev-build-cache-{{ checksum "package-lock.json" }}
-            - dev-build-cache-
-      - run:
-          name: Install Dependencies
-          command: npm install
-      - run:
-          name: Production Build
-          command: npx postcss css/crazy.css -u cssnano -o css/crazy.min.css --no-map
-      - save_cache:
-          key: dev-build-cache-{{ checksum "package-lock.json" }}
-          paths:
-            - node_modules
+      - attach_workspace:
+          at: .
+      - run: npm install
+      - run: npx postcss css/crazy.css -u cssnano -o css/crazy.min.css --no-map
       - store_artifacts:
-          path: css
-    requires:
-      - dev_build
+          path: css/crazy.min.css
 
 workflows:
+  version: 2
   build:
     jobs:
-      - dev_build
-      - prod_build:
+      - build-dev
+      - build-prod:
           requires:
-            - dev_build
+            - build-dev
           filters:
             branches:
-              only:
-                - main
+              only: master
