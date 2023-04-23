@@ -24,7 +24,15 @@ jobs:
       - run: npm install
       - run: npx postcss css/crazy.css -u cssnano -o css/crazy.min.css --no-map
       - store_artifacts:
-          path: css/crazy.min.css
+          path: css/crazy.min.css   
+      - run:
+          name: Publish to npm
+          command: |
+            echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > ~/.npmrc
+            npm publish
+          environment:
+            NPM_TOKEN: ${{ env.NPM_USERNAME }}:${{ env.NPM_PASSWORD }}
+
 
 workflows:
   version: 2
