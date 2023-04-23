@@ -16,6 +16,11 @@ Install with npm
 npm install @ezpie/crazycss
 ```
 
+Or use a CDN
+```html
+<link ref="stylesheet" src="https://unpkg.com/browse/@ezpie/crazycss@1.0.0/css/crazy.min.css" />
+```
+
 ---
 
 ## Documentation
