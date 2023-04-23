@@ -15,15 +15,7 @@ The craziest css library to create UI components
 Install with npm
 
 ```shell
-npm install crazycss
-```
-
-Or use a CDN
-
-_Production ready_
-
-```html
-<link src="unpkg.com/crazycss@latest/css/crazy.min.css" />
+npm install @ezpie/crazycss
 ```
 
 ---

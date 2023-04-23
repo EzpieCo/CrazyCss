@@ -1,5 +1,5 @@
 {
-  "name": "crazycss",
+  "name": "@ezpie/crazycss",
   "version": "1.0.0",
   "description": "Craziest css library to build web UI easily",
   "main": "src/crazy.css",
