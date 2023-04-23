@@ -2,12 +2,20 @@
 
 The craziest css library to create UI components
 
+![CircleCI](https://img.shields.io/circleci/build/github/EzpieCo/CrazyCss/main)
+![npm](https://img.shields.io/npm/dt/crazycss)
+![npm bundle size](https://img.shields.io/bundlephobia/min/crazycss)
+![GitHub](https://img.shields.io/github/license/ezpieco/crazycss)
+![npm](https://img.shields.io/npm/v/crazycss)
+
+---
+
 ## Installation
 
 Install with npm
 
 ```shell
-npm install crazy
+npm install crazycss
 ```
 
 Or use a CDN
@@ -15,23 +23,47 @@ Or use a CDN
 _Production ready_
 
 ```html
-<link src="unpkg.com/crazy@latest/css/crazy.min.css" />
+<link src="unpkg.com/crazycss@latest/css/crazy.min.css" />
 ```
 
-_Development(not recommended)_
-
-```html
-<link src="unpkg.com/crazy@latest/css/crazy.css" />
-```
+---
 
 ## Documentation
 
 You can find the documentation in our [site](crazy.vercel.app)
 
+---
+
 ## Contribution
 
-You can contribute anyway you like
+You can start by finding bugs in the [issue tab](https://github.com/EzpieCo/CrazyCss/issues)
+
+Please check the [contributing.md](CONTRIBUTING.md)
+
+---
 
 ## License
 
-<!-- Add -->
+CrazyCss is license under the [MIT license](https://github.com/EzpieCo/CrazyCss/LICENSE)
+
+MIT License
+
+Copyright (c) 2023 Ezpie
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

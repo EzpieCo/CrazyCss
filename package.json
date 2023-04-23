@@ -21,5 +21,9 @@
     "postcss-cli": "^10.1.0",
     "postcss-discard-comments": "^6.0.0",
     "postcss-import": "^15.1.0"
+  },
+  "homepage": "https://github.com/ezpieco/crazycss",
+  "bugs": {
+    "url": "https://github.com/ezpieco/crazycss"
   }
 }
