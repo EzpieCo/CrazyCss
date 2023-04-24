@@ -13,3 +13,32 @@
 .border-double {
   border-style: double;
 }
+
+/* Colors */
+.border-white {
+  border-color: var(--white);
+}
+
+.border-black {
+  border-color: var(--black);
+}
+
+.border-gray {
+  border-color: var(--gray);
+}
+
+.border-blue {
+  border-color: var(--blue);
+}
+
+.border-red {
+  border-color: var(--red);
+}
+
+.border-green {
+  border-color: var(--green);
+}
+
+.border-yellow {
+  border-color: var(--yellow);
+}

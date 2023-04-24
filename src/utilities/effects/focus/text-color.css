@@ -1,0 +1,27 @@
+.focus\:text-black:focus {
+  color: var(--black);
+}
+
+.focus\:text-white:focus {
+  color: var(--white);
+}
+
+.focus\:text-blue:focus {
+  color: var(--blue);
+}
+
+.focus\:text-gray:focus {
+  color: var(--gray);
+}
+
+.focus\:text-red:focus {
+  color: var(--red);
+}
+
+.focus\:text-green:focus {
+  color: var(--green);
+}
+
+.focus\:text-yellow:focus {
+  color: var(--yellow);
+}

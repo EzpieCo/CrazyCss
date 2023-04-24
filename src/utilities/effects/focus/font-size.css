@@ -1,0 +1,43 @@
+.focus\:font-0:focus {
+  font-size: 0;
+}
+
+.focus\:font-1:focus {
+  font-size: var(--base-font-size);
+}
+
+.focus\:font-2:focus {
+  font-size: var(--font-2-size);
+}
+
+.focus\:font-3:focus {
+  font-size: var(--font-3-size);
+}
+
+.focus\:font-4:focus {
+  font-size: var(--font-4-size);
+}
+
+.focus\:font-5:focus {
+  font-size: var(--font-5-size);
+}
+
+.focus\:font-6:focus {
+  font-size: var(--font-6-size);
+}
+
+.focus\:font-7:focus {
+  font-size: var(--font-7-size);
+}
+
+.focus\:font-8:focus {
+  font-size: var(--font-8-size);
+}
+
+.focus\:font-9:focus {
+  font-size: var(--font-9-size);
+}
+
+.focus\:font-10:focus {
+  font-size: var(--font-10-size);
+}
