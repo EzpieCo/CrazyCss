@@ -1,5 +1,5 @@
 {
-  "name": "@ezpie/crazycss",
+  "name": "@ezpie/crazy",
   "version": "1.0.0",
   "description": "Craziest css library to build web UI easily",
   "main": "src/crazy.css",
@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/ezpieco/crazycss",
   "bugs": {
-    "url": "https://github.com/ezpieco/crazycss"
+    "url": "https://github.com/ezpieco/crazycss/issue"
   }
 }

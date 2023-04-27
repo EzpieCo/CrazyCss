@@ -1,5 +1,5 @@
-.circle
-.vscode
-node_modules
+.circleci/
+.vscode/
+node_modules/
 postcss.config.js
 src/
