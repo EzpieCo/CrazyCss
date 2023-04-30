@@ -16,29 +16,29 @@
 
 /* Colors */
 .border-white {
-  border-color: var(--white);
+  border-color: var(--white) !important;
 }
 
 .border-black {
-  border-color: var(--black);
+  border-color: var(--black) !important;
 }
 
 .border-gray {
-  border-color: var(--gray);
+  border-color: var(--gray) !important;
 }
 
 .border-blue {
-  border-color: var(--blue);
+  border-color: var(--blue) !important;
 }
 
 .border-red {
-  border-color: var(--red);
+  border-color: var(--red) !important;
 }
 
 .border-green {
-  border-color: var(--green);
+  border-color: var(--green) !important;
 }
 
 .border-yellow {
-  border-color: var(--yellow);
+  border-color: var(--yellow) !important;
 }

@@ -1,41 +1,41 @@
 /* border for top */
 
 .border-top-1 {
-  border-top-width: var(--border-width);
+  border-top: black solid var(--border-width);
 }
 
 .border-top-2 {
-  border-top-width: calc(var(--border-width) * 2);
+  border-top: black solid calc(var(--border-width) * 2);
 }
 
 .border-top-3 {
-  border-top-width: calc(var(--border-width) * 3);
+  border-top: black solid calc(var(--border-width) * 3);
 }
 
 .border-top-4 {
-  border-top-width: calc(var(--border-width) * 4);
+  border-top: black solid calc(var(--border-width) * 4);
 }
 
 .border-top-5 {
-  border-top-width: calc(var(--border-width) * 5);
+  border-top: black solid calc(var(--border-width) * 5);
 }
 
 .border-top-6 {
-  border-top-width: calc(var(--border-width) * 6);
+  border-top: black solid calc(var(--border-width) * 6);
 }
 
 .border-top-7 {
-  border-top-width: calc(var(--border-width) * 7);
+  border-top: black solid calc(var(--border-width) * 7);
 }
 
 .border-top-8 {
-  border-top-width: calc(var(--border-width) * 8);
+  border-top: black solid calc(var(--border-width) * 8);
 }
 
 .border-top-9 {
-  border-top-width: calc(var(--border-width) * 9);
+  border-top: black solid calc(var(--border-width) * 9);
 }
 
 .border-top-10 {
-  border-top-width: calc(var(--border-width) * 10);
+  border-top: black solid calc(var(--border-width) * 10);
 }
