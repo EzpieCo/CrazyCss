@@ -49,4 +49,27 @@
   --font-8-size: calc(var(--base-font-size) * 4.5);
   --font-9-size: calc(var(--base-font-size) * 6);
   --font-10-size: calc(var(--base-font-size) * 8);
+
+  /* Width and Height sizes */
+  --base-width: 0.5rem;
+  --width-2: calc(var(--base-width) * 2)
+  --width-3: calc(var(--base-width) * 3)
+  --width-4: calc(var(--base-width) * 4)
+  --width-5: calc(var(--base-width) * 5)
+  --width-6: calc(var(--base-width) * 6)
+  --width-7: calc(var(--base-width) * 7)
+  --width-8: calc(var(--base-width) * 8)
+  --width-9: calc(var(--base-width) * 9)
+  --width-10: calc(var(--base-width) * 10)
+
+  --base-height: 0.5rem;
+  --height-2: calc(var(--base-height) * 2)
+  --height-3: calc(var(--base-height) * 3)
+  --height-4: calc(var(--base-height) * 4)
+  --height-5: calc(var(--base-height) * 5)
+  --height-6: calc(var(--base-height) * 6)
+  --height-7: calc(var(--base-height) * 7)
+  --height-8: calc(var(--base-height) * 8)
+  --height-9: calc(var(--base-height) * 9)
+  --height-10: calc(var(--base-height) * 10)
 }

@@ -5,6 +5,7 @@
 @import "base";
 
 /* Utilities */
+@import "./utilities/sizes/main";
 @import "./utilities/padding/main";
 @import "./utilities/margin/main";
 @import "./utilities/colors/text/main";
