@@ -1,6 +1,6 @@
 {
   "name": "@ezpie/crazy",
-  "version": "1.0.0",
+  "version": "1.0.0-beta",
   "description": "Craziest css library to build web UI easily",
   "main": "src/crazy.css",
   "style": "src/crazy.css",
