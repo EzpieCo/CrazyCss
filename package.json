@@ -22,7 +22,7 @@
     "postcss-discard-comments": "^6.0.0",
     "postcss-import": "^15.1.0"
   },
-  "homepage": "https://github.com/ezpieco/crazycss",
+  "homepage": "https://crazycss.vercel.app",
   "bugs": {
     "url": "https://github.com/ezpieco/crazycss/issue"
   }
