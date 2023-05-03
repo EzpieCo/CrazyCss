@@ -2,10 +2,10 @@
 
 The craziest css library to create UI components
 
-![CircleCI](https://img.shields.io/circleci/build/github/EzpieCo/CrazyCss/main)
-![npm bundle size](https://img.shields.io/bundlephobia/min/@ezpie/crazycss)
-![NPM](https://img.shields.io/npm/l/@ezpie/crazycss)
-![npm](https://img.shields.io/npm/v/@ezpie/crazycss)
+![CircleCI](https://img.shields.io/circleci/build/github/ezpieco/crazycss/main)
+![npm bundle size](https://img.shields.io/bundlephobia/min/@ezpie/crazy)
+![NPM](https://img.shields.io/npm/l/@ezpie/crazy)
+![npm](https://img.shields.io/npm/v/@ezpie/crazy)
 ---
 
 ## Installation
@@ -13,19 +13,19 @@ The craziest css library to create UI components
 Install with npm
 
 ```shell
-npm install @ezpie/crazycss
+npm install @ezpie/crazy
 ```
 
 Or use a CDN
 ```html
-<link ref="stylesheet" src="https://unpkg.com/browse/@ezpie/crazycss@1.0.0/css/crazy.min.css" />
+<link ref="stylesheet" src="https://cdn.jsdelivr.net/npm/@ezpie/crazy@latest/css/crazy.min.css" />
 ```
 
 ---
 
 ## Documentation
 
-You can find the documentation in our [site](https://crazycss.vercel.app)(not ready yet)
+You can find the documentation in our [site](https://crazycss.vercel.app)
 
 ---
 
