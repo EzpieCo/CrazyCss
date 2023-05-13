@@ -1,0 +1,31 @@
+.focus\:list-style-none:focus {
+  list-style-type: none;
+}
+
+.focus\:list-style-disc:focus {
+  list-style-type: disc;
+}
+
+.focus\:list-style-circle:focus {
+  list-style-type: circle;
+}
+
+.focus\:list-style-decimal:focus {
+  list-style-type: decimal;
+}
+
+.focus\:list-style-caps:focus {
+  list-style-type: upper-alpha;
+}
+
+.focus\:list-style-lower:focus {
+  list-style-type: lower-alpha;
+}
+
+.focus\:list-style-upper-roman:focus {
+  list-style-type: upper-roman;
+}
+
+.focus\:list-style-lower-roman:focus {
+  list-style-type: lower-roman;
+}

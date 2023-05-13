@@ -1,0 +1,31 @@
+.hover\:list-style-none:hover {
+  list-style-type: none;
+}
+
+.hover\:list-style-disc:hover {
+  list-style-type: disc;
+}
+
+.hover\:list-style-circle:hover {
+  list-style-type: circle;
+}
+
+.hover\:list-style-decimal:hover {
+  list-style-type: decimal;
+}
+
+.hover\:list-style-caps:hover {
+  list-style-type: upper-alpha;
+}
+
+.hover\:list-style-lower:hover {
+  list-style-type: lower-alpha;
+}
+
+.hover\:list-style-upper-roman:hover {
+  list-style-type: upper-roman;
+}
+
+.hover\:list-style-lower-roman:hover {
+  list-style-type: lower-roman;
+}

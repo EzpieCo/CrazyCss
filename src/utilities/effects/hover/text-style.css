@@ -1,0 +1,31 @@
+.hover\:nowrap:hover {
+  white-space: nowrap;
+}
+
+.hover\:text-caps:hover {
+  text-transform: uppercase;
+}
+
+.hover\:text-lower:hover {
+  text-transform: lowercase;
+}
+
+.hover\:text-none:hover {
+  text-decoration: none;
+}
+
+.hover\:text-underline:hover {
+  text-decoration: underline;
+}
+
+.hover\:text-dashed:hover {
+  text-decoration: dashed;
+}
+
+.hover\:text-dotted:hover {
+  text-decoration: dotted;
+}
+
+.hover\:text-cut:hover {
+  text-decoration: line-through;
+}
