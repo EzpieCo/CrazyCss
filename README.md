@@ -2,7 +2,7 @@
 
 The craziest css library to create UI components
 
-![CircleCI](https://img.shields.io/circleci/build/github/ezpieco/crazycss/main)
+![CircleCI](https://img.shields.io/circleci/build/github/EzpieCo/CrazyCss/main)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/@ezpie/crazy)
 ![NPM](https://img.shields.io/npm/l/@ezpie/crazy)
 ![npm](https://img.shields.io/npm/v/@ezpie/crazy)
